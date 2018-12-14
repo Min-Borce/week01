@@ -1,0 +1,589 @@
+body {
+    background-color: #ffab36;
+    padding-left: 2%;
+    width: 95%
+}
+
+header {
+    width: 99%;
+    /* height: 1%px; */
+    /* background-color: green; */
+}
+
+.company {
+    padding: 0;
+    margin: -5px;
+    margin-top: 5px;
+}
+
+
+/* h2 {
+    margin-top: 5px;
+    margin-bottom: -5px;
+} */
+
+h3 {
+    padding: 2px;
+    background-color: #eb7d07;
+    margin: 5px;
+}
+
+h4 {
+    margin-top: 45px;
+}
+
+hr {
+    padding: 10px;
+    background-color: #eb7d07;
+    border: 0 none;
+}
+
+video {
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+    display: block
+}
+
+.download-buttons {
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
+
+.button-space {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.share-button {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* ORDER IMAGES */
+
+.image-size {
+    width: 150px;
+    /* height: 150px; */
+}
+
+.image-order-first {
+    /* width: 12%; */
+    padding-left: 1%;
+    padding-right: 4%;
+    display: inline-grid;
+    text-align: center;
+}
+
+.image-order {
+    width: 18%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: inline-grid;
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.image-order-last {
+    /* width: 12%; */
+    /* padding-right: 1%; */
+    padding-left: 4%;
+    display: inline-grid;
+    text-align: center;
+}
+
+.image-ordering {
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    clear: both;
+    padding-right: 20px;
+}
+
+.languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* CONTAINERs */
+
+
+/* START FIRST CONTAINER */
+
+.first-container {
+    width: 63%;
+    border-style: solid;
+    border-color: #d16d02;
+    border-radius: 1%;
+    padding: 1%;
+    float: left;
+    clear: both;
+}
+
+
+/* END FIRST CONTAINER */
+
+
+/* START SECOND CONTAINER */
+
+.second-container {
+    width: 30%;
+    border-style: solid;
+    border-color: #d16d02;
+    padding-bottom: 1%;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border-radius: 3%;
+}
+
+
+/* END SECOND CONTAINER */
+
+
+/* START THIRD CONTAINER */
+
+.third-container {
+    width: 30%;
+    border-style: solid;
+    border-color: #d16d02;
+    margin-right: 10px;
+    border-radius: 3%;
+}
+
+ul.navigate {
+    list-style: none;
+    padding: 0px;
+}
+
+ul.navigate li:before {
+    content: '\02666';
+    margin: 0 1em;
+}
+
+.navigate a {
+    text-decoration: none;
+    color: #8c4a04;
+}
+
+
+/* END THIRD CONTAINER */
+
+
+/* END CONTAINERs */
+
+.position-relative {
+    position: relative;
+}
+
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    border-style: solid;
+    display: inline-grid;
+}
+
+#banner-image {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+
+/* MENU */
+
+.menu {
+    width: 100%;
+}
+
+ul.meni {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d16d02;
+    list-style-type: none;
+}
+
+li.meni {
+    float: left;
+}
+
+li a.menu {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a.menu:hover {
+    background-color: #ed7e07;
+}
+
+.searchbar {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
+}
+
+footer ul a {
+    margin: 20px;
+    color: #8c4a04;
+}
+
+footer ul.footer-menu {
+    list-style-type: none;
+}
+
+footer li.footer-menu {
+    display: inline-block;
+    font-size: 120%;
+}
+
+.copyright {
+    clear: both;
+    font-size: 80%;
+}
+
+
+/* How it works */
+
+.how-it-works {
+    float: right;
+}
+
+ul.how-it {
+    padding: 0;
+    list-style-type: none;
+}
+
+.how-it a {
+    color: #8c4a04;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+li.how-it {
+    float: left;
+    margin: 10px;
+}
+
+
+/* RESPONSIVE */
+
+
+/* DOWNLOAD & PURCHASE BUTTONS */
+
+@media screen and (max-width: 1050px) {
+    .button-space {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    .button-space {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .button-space {
+        display: inline-block;
+        width: 25%;
+    }
+}
+
+
+/* LEFT CONTAINERS */
+
+@media screen and (max-width: 800px) {
+    .second-container,
+    .third-container {
+        width: 45%;
+        margin-top: 1%;
+        float: left;
+    }
+    .first-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .second-container,
+    .third-container {
+        width: 40%;
+        margin-top: 1%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .second-container,
+    .third-container {
+        width: 85%;
+        margin-top: 1%;
+        float: none;
+    }
+}
+
+
+/* MENU */
+
+@media screen and (max-width: 770px) {
+    li a.menu {
+        padding: 10px;
+    }
+    .searchbar {
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    li a.menu {
+        padding: 5px;
+    }
+    .searchbar {
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    li a.menu {
+        padding: 1px;
+    }
+    .searchbar {
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    li a.menu {
+        padding: 10px;
+    }
+    .searchbar {
+        position: relative;
+        text-align: center;
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    li a.menu {
+        padding: 5px;
+    }
+    .searchbar {
+        position: relative;
+        text-align: center;
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    li a.menu {
+        padding: 1px;
+    }
+    .searchbar {
+        position: relative;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    li a.menu {
+        width: 100%;
+        padding: 0;
+        font-size: 90%;
+        margin: 2px;
+    }
+    .searchbar {
+        position: relative;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    li a.menu {
+        width: 100%;
+        padding: 0;
+        font-size: 90%;
+        margin: 1px;
+    }
+    .searchbar {
+        position: relative;
+        text-align: center;
+    }
+}
+
+
+/* HOW IT WORKS */
+
+@media screen and (max-width: 410px) {
+    li.how-it {
+        float: left;
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width: 334px) {
+    li.how-it {
+        float: left;
+        margin: 1px;
+    }
+}
+
+
+/* LANGUAGES */
+
+@media screen and (max-width: 440px) {
+    .languages {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .position-relative {
+        position: unset;
+    }
+}
+
+
+/* 
+@media screen and (max-width: 1410px) {
+    .image-size {
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 1375px) {
+    .image-size {
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .image-size {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .image-size {
+        width: 115px;
+    }
+} */
+
+@media screen and (max-width: 1125px) {
+    .image-size {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .image-order {
+        width: 33%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 518px) {
+    #montly {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 402px) {
+    #montly {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    #montly {
+        font-size: 70%;
+    }
+}
+
+
+/* ANIMATION */
+
+
+/*  
+h2 {
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    0% {
+        color: white;
+    }
+    10% {
+        color: black;
+    }
+    20% {
+        color: white;
+    }
+    30% {
+        color: black;
+    }
+    40% {
+        color: white;
+    }
+    50% {
+        color: black;
+    }
+    60% {
+        color: white;
+    }
+    70% {
+        color: black;
+    }
+    80% {
+        color: white;
+    }
+    90% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
+}
+*/

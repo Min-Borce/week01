@@ -1,156 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Love Pets</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <img src="img/lovePets_logo_100px.jpg" alt="Love Pets LOGO">
-            <h2>
-                LOVE PETS
-            </h2>
-            <h4>Best Place for Pets</h4>
+        <div class="position-relative">
+            <div class="logo">
+                <img src="img/lovePets_logo_100px.jpg" alt="Love Pets LOGO">
+
+
+            </div>
+            <div class="company">
+                <h2>
+                    LOVE PETS
+                </h2>
+                <h4>Best Place for Pets</h4>
+            </div>
+            <div class="languages">
+                <button>EN</button>
+                <button>FR</button>
+                <button>DE</button>
+                <button>CN</button>
+            </div>
         </div>
-        <div>
-            <button>EN</button>
-            <button>FR</button>
-            <button>DE</button>
-            <button>CN</button>
+
+        <div class="how-it-works">
+
+            <ul class="how-it">
+
+                <li class="how-it"><a href="#">How It Works</a></li>
+                <li class="how-it"><strong>|</strong></li>
+                <li class="how-it"><a href="#">Edraw Max</a></li>
+                <li class="how-it"><strong>|</strong></li>
+                <li class="how-it"><a href="#">Edraw Mind Map</a></li>
+            </ul>
         </div>
 
 
+        <nav class="menu">
+            <div class="position-relative">
+                <ul class="meni">
+                    <li class="meni "><a class="menu" href="#">Home</a></li>
+                    <li class=" meni"><a class="menu" href="#">Products</a></li>
+                    <li class="meni "><a class="menu" href="#">Download</a></li>
+                    <li class="meni"><a class="menu" href="#">Buy Now</a></li>
+                    <li class="meni"><a class="menu" href="#">Support</a></li>
+                    <li class="meni"><a class="menu" href="#">About</a></li>
+                    <li>
+                        <div class="searchbar">
 
-        <ul>
-            <a href="#">How It Works</a>
-            <a> <strong>|</strong> </a>
-            <a href="#">Edraw Max</a>
-            <a> <strong>|</strong> </a>
-            <a href="#">Edraw Mind Map</a></li>
-        </ul>
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </li>
+                </ul>
 
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">Download</a>
-            <a href="#">Buy Now</a>
-            <a href="#">Support</a>
-            <a href="#">About</a>
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
         </nav>
+
+
     </header>
     <main>
         <div>
-            <img src="img/Banner.jpg" alt="Banner">
+            <img id="banner-image" src="img/Banner.jpg" alt="Banner">
         </div>
 
         <article>
-            <section>
-                <div>
-                    <h3>
-                        Top Story Headline
-                    </h3>
-                </div>
-                <div>
-                    <img src="img/DogCat.jpg" alt="Dog & Cat">
-                    <p>
-                        Dogs and cats have a range of interactions.The natural instincts of each species lead towards antagonistic interactions, though individual animals can have non-aggressive relationships with each other, particularly under conditions where humans have socialized
-                        non-aggressive behaviors. The generally aggressive interactions between the species have been noted in cultural expressions. The signals and behaviors that cats and dogs use to communicate are different and can lead to signals
-                        of aggression, fear, dominance, friendship or territoriality being misinterpreted by the other species. Dogs have a natural instinct to chase smaller animals that flee, an instinct common among cats. Most cats flee from a dog,
-                        while others take actions such as hissing, arching their backs and swiping at the dog. After being scratched by a cat, some dogs can become fearful of cats.
-                    </p>
-                </div>
-                <div>
-                    <button>Download</button>
-                    <button>Purchase</button>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h3>
-                        A monthly newsletter brought to you by LOVE PETS
-                    </h3>
-                </div>
-                <div>
-                    <div>
-                        <img src="img/hamster.jpg" alt="Hamster">
-                        <p> Hamster</p>
-                    </div>
-                    <div>
-                        <img src="img/Parrot.jpg" alt="Parrot">
-                        <p> Parrot</p>
-                    </div>
-                    <div>
-                        <img src="img/Rabbit.jpg" alt="Rabbit">
-                        <p> Rabbit</p>
-                    </div>
-                    <div>
-                        <img src="img/GoldenFish.jpg" alt="Golden Fish">
-                        <p> Golden Fish</p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <p> User Review: <br> A pet or companion animal is an animal kept primarily for a person's company, protection, or entertainment rather than as a working animal, livestock, or laboratory animal. Popular pets are often noted for their attractive
-                        appearances, intelligence, and relatable personalities.
-                    </p>
-                </div>
-            </section>
+            <div class="first-container">
 
+                <section>
+                    <div>
+                        <h3>
+                            Top Story Headline
+                        </h3>
+                    </div>
+                    <div>
+                        <img class="logo" src="img/DogCat.jpg" alt="Dog & Cat">
 
-            <aside>
-                <div>
-                    <h3>
-                        Social
-                    </h3>
-                </div>
-                <div>
-                    <video src="video/dogFood.mp4" controls>
+                        <div>
+                            <p>
+                                Dogs and cats have a range of interactions.The natural instincts of each species lead towards antagonistic interactions, though individual animals can have non-aggressive relationships with each other, particularly under conditions where humans have socialized
+                                non-aggressive behaviors. The generally aggressive interactions between the species have been noted in cultural expressions. The signals and behaviors that cats and dogs use to communicate are different and can lead to
+                                signals of aggression, fear, dominance, friendship or territoriality being misinterpreted by the other species. Dogs have a natural instinct to chase smaller animals that flee, an instinct common among cats. Most cats flee
+                                from a dog, while others take actions such as hissing, arching their backs and swiping at the dog. After being scratched by a cat, some dogs can become fearful of cats.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="download-buttons">
+                        <button class="button-space">Download</button>
+                        <button class="button-space">Purchase</button>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h3 id="montly">
+                            A monthly newsletter brought to you by LOVE PETS
+                        </h3>
+                    </div>
+
+                    <div class="image-ordering">
+                        <div class="image-order">
+                            <img class="image-size" src="img/hamster.jpg" alt="Hamster">
+                            <p> Hamster</p>
+                        </div>
+                        <div class="image-order">
+                            <img class="image-size" src="img/Parrot.jpg" alt="Parrot">
+                            <p> Parrot</p>
+                        </div>
+                        <div class="image-order">
+                            <img class="image-size" src="img/Rabbit.jpg" alt="Rabbit">
+                            <p> Rabbit</p>
+                        </div>
+                        <div class="image-order">
+                            <img class="image-size" src="img/GoldenFish.jpg" alt="Golden Fish">
+                            <p> Golden Fish</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p> User Review:</p>
+                        <p>A pet or companion animal is an animal kept primarily for a person's company, protection, or entertainment rather than as a working animal, livestock, or laboratory animal. Popular pets are often noted for their attractive appearances,
+                            intelligence, and relatable personalities.
+                        </p>
+                    </div>
+                </section>
+                <!-- </div> -->
+            </div>
+            <div>
+                <aside class="second-container">
+                    <div>
+                        <h3>
+                            Social
+                        </h3>
+                    </div>
+                    <div>
+                        <video src="video/dogFood.mp4" controls>
 
                           </video>
-                    <div>
-                        <button>Share & Links</button>
+                        <div>
+                            <button class="share-button">Share & Links</button>
+                        </div>
                     </div>
-                </div>
-            </aside>
-            <aside>
-                <div>
-                    <h3>
-                        Navigate
-                    </h3>
-                </div>
-                <div>
-                    <ul>
-                        <li>Items</li>
-                        <li>Items</li>
-                        <li>Items</li>
-                        <li>Items</li>
-                        <li>Items</li>
-                        <li>Items</li>
-                    </ul>
-                </div>
-            </aside>
+                </aside>
+                <aside class="third-container">
+                    <div>
+                        <h3>
+                            Navigate
+                        </h3>
+                    </div>
+                    <div>
+                        <ul class="navigate">
+                            <li>
+                                <a href="#">Dog</a>
+                            </li>
+                            <li>
+                                <a href="#">Cat</a>
+                            </li>
+                            <li>
+                                <a href="#">Hamster</a>
+                            </li>
+                            <li>
+                                <a href="#">Fish</a>
+                            </li>
+                            <li>
+                                <a href="#">Parrot</a>
+                            </li>
+                            <li>
+                                <a href="#">Rabbit</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
         </article>
     </main>
-    <hr>
+
     <footer>
-        <ul>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">Privacy</a></li>
-            <a href="#">Terms</a>
-            <a href="#">Site Maps</a>
-            <a href="#">Links</a>
+        <hr>
+
+        <ul class="footer-menu">
+
+
+            <li class="footer-menu"><a href="#">Home</a></li>
+            <li class="footer-menu"> <a href="#">Products</a></li>
+            <li class="footer-menu"><a href="#">Privacy</a></li>
+
+            <li class="footer-menu"><a href="#">Terms</a></li>
+            <li class="footer-menu"><a href="#">Site Maps</a></li>
+            <li class="footer-menu"><a href="#">Links</a></li>
+
         </ul>
-        <!-- <p> -->
-        <p>
-            Copyright LOVE PETS 2018. All Rights Reserved
+        <p class="copyright">
+            <strong>Copyright LOVE PETS 2018. All Rights Reserved</strong>
         </p>
     </footer>
 </body>
